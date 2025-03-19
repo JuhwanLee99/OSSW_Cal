@@ -1,12 +1,12 @@
 ###
 def plus(a, b):
-    return a + b
+    return float(a) + float(b)
 def minus(a, b):
-    return a - b
+    return float(a) - float(b)
 def mul(a, b):
-    return a * b
+    return float(a) * float(b)
 def div(a, b):
-    return a / b
+    return float(a) / float(b)
 
 if __name__ == '__main__':
 
